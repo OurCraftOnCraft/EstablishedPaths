@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="establishedpaths"
+version="${mod_version}"
+displayName="Established Paths"
+description='''
+Every player footstep has a 1/10 chance that the ground walked on changes:
+- Grass block to dirt
+- Dirt to path
+- Stone to cobblestone
+- Cobblestone to gravel
+'''
+authors="OurCraftOnCraft"
+
+[[dependencies.establishedpaths]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.0,)"
+
+[[dependencies.establishedpaths]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+
+
